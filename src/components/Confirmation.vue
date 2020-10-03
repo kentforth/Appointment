@@ -60,6 +60,8 @@ export default {
         this.appointments = [];
         this.appointments.push(newAppointment);
         localStorage.setItem("appointments", JSON.stringify(this.appointments));
+        this.$router.push("/");
+        this.previousPage();
       } else {
         this.appointments.push(newAppointment);
         localStorage.setItem("appointments", JSON.stringify(this.appointments));
