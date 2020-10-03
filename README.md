@@ -1,24 +1,11 @@
-# appointment
+# Appointment
 
-## Project setup
-```
-npm install
-```
+## It is application where you can create appointments(tasks).
+## Each apppointment can be removed from main window
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Technologies used:
+### Vue JS, Local storage, Vuex. No backend used. Only client side application
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
